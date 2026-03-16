@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-15T10:36:07 IST" name="Suite" finished-at="2026-03-15T10:37:28 IST" duration-ms="81505">
+    <groups>
+    </groups>
+    <test started-at="2026-03-15T10:36:07 IST" name="TestChrome" finished-at="2026-03-15T10:37:20 IST" duration-ms="72632">
+      <class name="com.testing.tests.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6d60fe40]" started-at="2026-03-15T10:36:08 IST" name="setup" finished-at="2026-03-15T10:36:22 IST" duration-ms="14056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithUsernamePassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6d60fe40]" started-at="2026-03-15T10:36:22 IST" name="loginWithUsernamePassword" data-provider="loginData" finished-at="2026-03-15T10:36:27 IST" duration-ms="5350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahulshettyacademy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Learning@830$3mK2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithUsernamePassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.LoginTest@6d60fe40]" started-at="2026-03-15T10:36:27 IST" name="tearDown" finished-at="2026-03-15T10:36:28 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6d60fe40]" started-at="2026-03-15T10:36:28 IST" name="setup" finished-at="2026-03-15T10:36:38 IST" duration-ms="10557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithUsernamePassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6d60fe40]" started-at="2026-03-15T10:36:38 IST" name="loginWithUsernamePassword" data-provider="loginData" finished-at="2026-03-15T10:36:45 IST" duration-ms="6731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahulshettyacademy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Learning@830$3mK2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithUsernamePassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.LoginTest@6d60fe40]" started-at="2026-03-15T10:36:45 IST" name="tearDown" finished-at="2026-03-15T10:36:46 IST" duration-ms="1113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6d60fe40]" started-at="2026-03-15T10:36:46 IST" name="setup" finished-at="2026-03-15T10:36:53 IST" duration-ms="6517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithUsernamePassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6d60fe40]" started-at="2026-03-15T10:36:53 IST" name="loginWithUsernamePassword" data-provider="loginData" finished-at="2026-03-15T10:36:56 IST" duration-ms="3004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wronguser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[error]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Incorrect username/password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithUsernamePassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.LoginTest@6d60fe40]" started-at="2026-03-15T10:36:56 IST" name="tearDown" finished-at="2026-03-15T10:36:56 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6d60fe40]" started-at="2026-03-15T10:36:56 IST" name="setup" finished-at="2026-03-15T10:37:02 IST" duration-ms="5703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithUsernamePassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6d60fe40]" started-at="2026-03-15T10:37:02 IST" name="loginWithUsernamePassword" data-provider="loginData" finished-at="2026-03-15T10:37:05 IST" duration-ms="3025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahulshettyacademy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[error]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Incorrect username/password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithUsernamePassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.LoginTest@6d60fe40]" started-at="2026-03-15T10:37:05 IST" name="tearDown" finished-at="2026-03-15T10:37:05 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6d60fe40]" started-at="2026-03-15T10:37:05 IST" name="setup" finished-at="2026-03-15T10:37:10 IST" duration-ms="5487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithUsernamePassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6d60fe40]" started-at="2026-03-15T10:37:10 IST" name="loginWithUsernamePassword" data-provider="loginData" finished-at="2026-03-15T10:37:11 IST" duration-ms="756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[error]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Empty username/password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithUsernamePassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.LoginTest@6d60fe40]" started-at="2026-03-15T10:37:11 IST" name="tearDown" finished-at="2026-03-15T10:37:11 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6d60fe40]" started-at="2026-03-15T10:37:11 IST" name="setup" finished-at="2026-03-15T10:37:18 IST" duration-ms="7071" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithUsernamePassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6d60fe40]" started-at="2026-03-15T10:37:18 IST" name="loginWithUsernamePassword" data-provider="loginData" finished-at="2026-03-15T10:37:19 IST" duration-ms="889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahulshettyacademy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[error]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Empty username/password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithUsernamePassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.LoginTest@6d60fe40]" started-at="2026-03-15T10:37:19 IST" name="tearDown" finished-at="2026-03-15T10:37:20 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testing.tests.LoginTest -->
+    </test> <!-- TestChrome -->
+    <test started-at="2026-03-15T10:36:07 IST" name="TestEdge" finished-at="2026-03-15T10:37:28 IST" duration-ms="81505">
+      <class name="com.testing.tests.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6b09fb41]" started-at="2026-03-15T10:36:08 IST" name="setup" finished-at="2026-03-15T10:36:20 IST" duration-ms="12343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithUsernamePassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6b09fb41]" started-at="2026-03-15T10:36:20 IST" name="loginWithUsernamePassword" data-provider="loginData" finished-at="2026-03-15T10:36:26 IST" duration-ms="5780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahulshettyacademy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Learning@830$3mK2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithUsernamePassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.LoginTest@6b09fb41]" started-at="2026-03-15T10:36:26 IST" name="tearDown" finished-at="2026-03-15T10:36:27 IST" duration-ms="1422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6b09fb41]" started-at="2026-03-15T10:36:27 IST" name="setup" finished-at="2026-03-15T10:36:40 IST" duration-ms="12846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithUsernamePassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6b09fb41]" started-at="2026-03-15T10:36:40 IST" name="loginWithUsernamePassword" data-provider="loginData" finished-at="2026-03-15T10:36:46 IST" duration-ms="6195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahulshettyacademy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Learning@830$3mK2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithUsernamePassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.LoginTest@6b09fb41]" started-at="2026-03-15T10:36:46 IST" name="tearDown" finished-at="2026-03-15T10:36:48 IST" duration-ms="1667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6b09fb41]" started-at="2026-03-15T10:36:48 IST" name="setup" finished-at="2026-03-15T10:36:55 IST" duration-ms="6861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithUsernamePassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6b09fb41]" started-at="2026-03-15T10:36:55 IST" name="loginWithUsernamePassword" data-provider="loginData" finished-at="2026-03-15T10:36:58 IST" duration-ms="3150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wronguser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[error]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Incorrect username/password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithUsernamePassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.LoginTest@6b09fb41]" started-at="2026-03-15T10:36:58 IST" name="tearDown" finished-at="2026-03-15T10:36:59 IST" duration-ms="1350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6b09fb41]" started-at="2026-03-15T10:36:59 IST" name="setup" finished-at="2026-03-15T10:37:06 IST" duration-ms="6933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithUsernamePassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6b09fb41]" started-at="2026-03-15T10:37:06 IST" name="loginWithUsernamePassword" data-provider="loginData" finished-at="2026-03-15T10:37:10 IST" duration-ms="3118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahulshettyacademy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[error]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Incorrect username/password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithUsernamePassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.LoginTest@6b09fb41]" started-at="2026-03-15T10:37:10 IST" name="tearDown" finished-at="2026-03-15T10:37:11 IST" duration-ms="1357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6b09fb41]" started-at="2026-03-15T10:37:11 IST" name="setup" finished-at="2026-03-15T10:37:18 IST" duration-ms="6975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithUsernamePassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6b09fb41]" started-at="2026-03-15T10:37:18 IST" name="loginWithUsernamePassword" data-provider="loginData" finished-at="2026-03-15T10:37:19 IST" duration-ms="813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[error]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Empty username/password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithUsernamePassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.LoginTest@6b09fb41]" started-at="2026-03-15T10:37:19 IST" name="tearDown" finished-at="2026-03-15T10:37:20 IST" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6b09fb41]" started-at="2026-03-15T10:37:20 IST" name="setup" finished-at="2026-03-15T10:37:26 IST" duration-ms="6271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithUsernamePassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.tests.LoginTest@6b09fb41]" started-at="2026-03-15T10:37:26 IST" name="loginWithUsernamePassword" data-provider="loginData" finished-at="2026-03-15T10:37:27 IST" duration-ms="786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahulshettyacademy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[error]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Empty username/password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithUsernamePassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.LoginTest@6b09fb41]" started-at="2026-03-15T10:37:27 IST" name="tearDown" finished-at="2026-03-15T10:37:28 IST" duration-ms="1351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testing.tests.LoginTest -->
+    </test> <!-- TestEdge -->
+  </suite> <!-- Suite -->
+</testng-results>
