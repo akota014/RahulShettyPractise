@@ -13,16 +13,22 @@ pipeline {
                 git 'https://github.com/username/selenium-project.git'
             }
         }
+        
+        stage('Start Grid') {
+			steps{
+				bat 'docker compose up -d'
+			}
+		}
 
         stage('Build') {
             steps {
-                sh 'mvn clean compile'
+                bat 'mvn clean compile'
             }
         }
 
         stage('Run Tests') {
             steps {
-                sh 'mvn test'
+                bat 'mvn test -DsuitexmlFile=testng-grid.xml'
             }
         }
 
@@ -33,4 +39,10 @@ pipeline {
         }
 
     }
+    
+    post{
+		always{
+			bat 'docker compose down'
+		}
+	}
 }
