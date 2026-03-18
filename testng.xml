@@ -5,8 +5,9 @@
   <listeners>
   <listener class-name="com.testing.BaseTest.Listener"></listener>
   </listeners>
+ 
   <test name="TestChrome">
-  <parameter name="execution" value="grid"></parameter>
+  <parameter name="execution" value="local"></parameter>
   <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.testing.tests.LoginTest"/>
@@ -15,7 +16,7 @@
   
   <test  name="TestEdge">
   <parameter name="browser" value="edge"/>
-  <parameter name="execution" value="grid"></parameter>
+  <parameter name="execution" value="local"></parameter>
     <classes>
       <class name="com.testing.tests.LoginTest"/>
     </classes>

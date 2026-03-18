@@ -25,7 +25,7 @@ public class DriveFactory {
 			if(browser.equalsIgnoreCase("chrome"))
 			{
 				ChromeOptions options =new ChromeOptions();
-				options.addArguments("--headless");
+				options.addArguments("--headless=new");
 	//			WebDriverManager.chromedriver().setup();
 			driverInstance = new RemoteWebDriver(new URL("http://localhost:4444/"), options);
 			driver.set(driverInstance);
@@ -34,7 +34,7 @@ public class DriveFactory {
 			else if(browser.equalsIgnoreCase("edge")) {
 				EdgeOptions options = new EdgeOptions();
 	//			WebDriverManager.edgedriver().setup();
-				options.addArguments("--headless");
+				options.addArguments("--headless=new");
 				driverInstance = new RemoteWebDriver(new URL("http://localhost:4444/"), options);
 				driver.set(driverInstance);
 			}
@@ -42,7 +42,7 @@ public class DriveFactory {
 			else if(browser.equalsIgnoreCase("firefox")) {
 				FirefoxOptions options = new FirefoxOptions();
 	//			WebDriverManager.firefoxdriver().setup();
-				options.addArguments("--headless");
+				options.addArguments("--headless=new");
 				driverInstance = new RemoteWebDriver(new URL("http://localhost:4444/"), options);
 				driver.set(driverInstance);
 			}
@@ -51,11 +51,23 @@ public class DriveFactory {
 			if(browser.equalsIgnoreCase("chrome"))
 			{
 				ChromeOptions options =new ChromeOptions();
+				options.addArguments("--headless=new");
 				WebDriverManager.chromedriver().setup();
 				driverInstance = new ChromeDriver(options);
 				driver.set(driverInstance);
+				
+			}
+			else if(browser.equalsIgnoreCase("edge"))
+			{
+				EdgeOptions options = new EdgeOptions();
+							WebDriverManager.edgedriver().setup();
+							options.addArguments("--headless=new");
+				driverInstance = new EdgeDriver(options);
+				driver.set(driverInstance);
 			}
 		}
+		
+		
 		
 		return driver.get();
 	}

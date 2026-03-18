@@ -3,10 +3,6 @@ package com.testing.tests;
 
 import org.testng.annotations.Test;
 import java.io.IOException;
-import java.time.Duration;
-
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 
@@ -16,6 +12,11 @@ import com.testing.Utils.ExcelReader;
 import com.testing.pages.LoginPage;
 
 public class LoginTest extends BaseTest{
+	
+	 @Test
+	    public void testLogin() {
+	        System.out.println("Running Test");
+	    }
 
 	@Test(dataProvider = "loginData")
 	public void loginWithUsernamePassword(String username, String password,
