@@ -6,7 +6,7 @@ pipeline {
 
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/username/selenium-project.git'
+                git 'https://github.com/akota014/RahulShettyPractise.git'
             }
         }
         
