@@ -10,7 +10,7 @@ pipeline {
 
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/akota014/RahulShettyPractise.git'
+                git branch: 'main', url:'https://github.com/akota014/RahulShettyPractise.git'
             }
         }
         
