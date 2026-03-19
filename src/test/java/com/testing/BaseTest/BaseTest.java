@@ -25,7 +25,14 @@ public class BaseTest {
 		driver = DriveFactory.initDriver(browser, execution);
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+		
+		try {
 		driver.manage().window().setSize(new Dimension(1920, 1080));
+		}
+		catch(Exception e) {
+			System.out.println("continue with exception");
+		}
+		
 		driver.get("https://rahulshettyacademy.com/loginpagePractise/");
 	}
 	
