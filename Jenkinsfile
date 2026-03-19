@@ -25,6 +25,17 @@ pipeline {
 				bat 'docker compose up -d'
 			}
 		}
+		
+		stage('Time to start grid'){
+			steps{
+				bat ':waitloop
+						curl http://localhost:4444/status | find "ready"
+						IF %ERRORLEVEL% NEQ 0 (
+						    timeout /t 5
+						    goto waitloop
+						)'
+			}
+		}
 
         stage('Build') {
             steps {
