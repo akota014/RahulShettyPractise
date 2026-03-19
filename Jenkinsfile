@@ -14,6 +14,12 @@ pipeline {
             }
         }
         
+        stage('Clean Old Containers') {
+		    steps {
+		        bat 'docker compose down'
+		    }
+		}
+        
         stage('Start Grid') {
 			steps{
 				bat 'docker compose up -d'
