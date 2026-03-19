@@ -6,6 +6,7 @@ import java.net.MalformedURLException;
 import java.time.Duration;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -24,7 +25,7 @@ public class BaseTest {
 		driver = DriveFactory.initDriver(browser, execution);
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
-		driver.manage().window().maximize();
+		driver.manage().window().setSize(new Dimension(1920, 1080));
 		driver.get("https://rahulshettyacademy.com/loginpagePractise/");
 	}
 	
