@@ -34,7 +34,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat 'mvn test -DsuitexmlFile=testng-grid.xml'
+                bat 'mvn test -DsuiteXmlFile=testng-grid.xml'
             }
         }
 
