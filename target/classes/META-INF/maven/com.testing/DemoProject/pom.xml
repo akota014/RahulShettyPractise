@@ -105,4 +105,18 @@
 
     </plugins>
 </build>
+<profiles>
+	<profile>
+		<id>local</id>
+		<properties>
+			<suiteXmlFile>testng-local.xml</suiteXmlFile>
+		</properties>
+	</profile>
+	<profile>
+		<id>grid</id>
+		<properties>
+			<suiteXmlFile>testng-grid.xml</suiteXmlFile>
+		</properties>
+	</profile>
+</profiles>
 </project>
