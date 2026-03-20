@@ -45,7 +45,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat 'mvn clean test -Pgrid'
+                bat 'mvn clean test -Plocal'
             }
         }
 

@@ -1,3 +1,4 @@
 com\testing\BaseTest\BaseTest.class
+com\testing\tests\DebugTest.class
 com\testing\tests\LoginTest.class
 com\testing\BaseTest\Listener.class

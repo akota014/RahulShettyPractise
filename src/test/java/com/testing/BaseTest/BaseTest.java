@@ -22,8 +22,10 @@ public class BaseTest {
 	@Parameters({"browser", "execution"})
 	@BeforeMethod
 	public void setup(String browser, String execution) throws MalformedURLException {
-		driver = DriveFactory.initDriver(browser, execution);
 		
+		System.out.println("Before driver init");
+		driver = DriveFactory.initDriver(browser, execution);
+		System.out.println("After driver init");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		
 		try {

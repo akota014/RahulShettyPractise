@@ -26,6 +26,9 @@ public class DriveFactory {
 			{
 				ChromeOptions options =new ChromeOptions();
 				options.addArguments("--headless=new");
+				options.addArguments("--window-size=1920,1080");
+				options.addArguments("--no-sandbox");
+				options.addArguments("--disable-dev-shm-usage");
 	//			WebDriverManager.chromedriver().setup();
 			driverInstance = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
 			driver.set(driverInstance);
@@ -35,6 +38,9 @@ public class DriveFactory {
 				EdgeOptions options = new EdgeOptions();
 	//			WebDriverManager.edgedriver().setup();
 				options.addArguments("--headless=new");
+				options.addArguments("--window-size=1920,1080");
+				options.addArguments("--no-sandbox");
+				options.addArguments("--disable-dev-shm-usage");
 				driverInstance = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
 				driver.set(driverInstance);
 			}
@@ -43,6 +49,9 @@ public class DriveFactory {
 				FirefoxOptions options = new FirefoxOptions();
 	//			WebDriverManager.firefoxdriver().setup();
 				options.addArguments("--headless=new");
+				options.addArguments("--window-size=1920,1080");
+				options.addArguments("--no-sandbox");
+				options.addArguments("--disable-dev-shm-usage");
 				driverInstance = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
 				driver.set(driverInstance);
 			}
