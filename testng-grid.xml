@@ -16,7 +16,7 @@
   
   <test  name="TestEdge">
   <parameter name="execution" value="grid"></parameter>
-  <parameter name="browser" value="edge"/>
+  <parameter name="browser" value="firefox"/>
   
     <classes>
       <class name="com.testing.tests.LoginTest"/>

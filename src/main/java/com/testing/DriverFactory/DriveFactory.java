@@ -48,10 +48,8 @@ public class DriveFactory {
 			else if(browser.equalsIgnoreCase("firefox")) {
 				FirefoxOptions options = new FirefoxOptions();
 	//			WebDriverManager.firefoxdriver().setup();
-				options.addArguments("--headless=new");
-				options.addArguments("--window-size=1920,1080");
-				options.addArguments("--no-sandbox");
-				options.addArguments("--disable-dev-shm-usage");
+				options.addArguments("--headless");
+				
 				driverInstance = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
 				driver.set(driverInstance);
 			}
