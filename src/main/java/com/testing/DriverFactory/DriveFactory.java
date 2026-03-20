@@ -60,7 +60,6 @@ public class DriveFactory {
 			if(browser.equalsIgnoreCase("chrome"))
 			{
 				ChromeOptions options =new ChromeOptions();
-				options.addArguments("--headless=new");
 				WebDriverManager.chromedriver().setup();
 				driverInstance = new ChromeDriver(options);
 				driver.set(driverInstance);
@@ -70,7 +69,6 @@ public class DriveFactory {
 			{
 				EdgeOptions options = new EdgeOptions();
 							WebDriverManager.edgedriver().setup();
-							options.addArguments("--headless=new");
 				driverInstance = new EdgeDriver(options);
 				driver.set(driverInstance);
 			}
